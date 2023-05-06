@@ -21,6 +21,7 @@ int main() {
             }
         }
         mx = max(mx,cnt);
+        
         cnt = 0;
         while(mx){
             mx = mx/2;
