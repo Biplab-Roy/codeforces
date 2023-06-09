@@ -43,7 +43,7 @@ void solve()
         if(q_t == 1) {
             cin >> p;
             if(differs.find(p - 1) != differs.end()) differs.erase(p - 1);
-            blocked.push({time + p, p - 1});
+            blocked.push({time + t, p - 1});
         }
 
         else if(q_t == 2) {
